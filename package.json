@@ -1,0 +1,21 @@
+{
+  "name": "life-in-vids-node",
+  "version": "1.0.0",
+  "description": "Node Layer of the LifeInVids App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js"
+  },
+  "author": "Abhishek Surbhat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^2.0.2"
+  }
+}
